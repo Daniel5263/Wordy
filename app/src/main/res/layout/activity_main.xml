@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:text="Wordy"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/target_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_12"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_13"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_14"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_15"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edit_21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_22"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_23"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_24"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_25"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edit_31"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_32"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_33"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_34"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_35"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edit_41"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_42"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_43"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_44"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_45"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edit_51"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_52"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_53"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_54"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_55"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edit_61"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_62"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_63"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_64"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:id="@+id/edit_65"
+                android:layout_width="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="60dp"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_edit"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="550dp">
+
+    <TextView
+        android:id="@+id/txt_winner"
+        android:text="Congrats! You have guessed the right word"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:layout_below="@+id/main_layout"
+        android:textSize="28sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="550dp">
+
+        <TextView
+            android:id="@+id/txt_loser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="You lose :("
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/button_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Restart" />
+
+    <Button
+        android:id="@+id/button_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/button_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Add Word" />
+
+</LinearLayout>
+
+</RelativeLayout>
